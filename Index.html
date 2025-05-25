@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Agência especializada em soluções digitais inovadoras e desenvolvimento web de alto impacto">
+  <meta name="keywords" content="desenvolvimento web, aplicativos, marketing digital, UI/UX design">
+  <title>Nexus Digital | Transformação Digital</title>
+  
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Ícones -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/main.css">
+  
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+
+<body>
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="loader">
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+    </div>
+  </div>
+
+  <!-- Cursor Personalizado -->
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <!-- Menu de Navegação -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <span class="logo-icon"><i class="fas fa-atom"></i></span>
+        <span class="logo-text">Nexus<span>Digital</span></span>
+      </a>
+      
+      <div class="menu-toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#services" class="nav-link">Serviços</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfólio</a></li>
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#team" class="nav-link">Equipe</a></li>
+        <li><a href="#blog" class="nav-link">Blog</a></li>
+        <li><a href="#contact" class="nav-link btn btn-primary">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <h4 class="subtitle animate__animated animate__fadeInUp">Soluções Digitais Sob Medida</h4>
+        <h1 class="title animate__animated animate__fadeInUp animate__delay-1s">Transformamos ideias em <span>realidade digital</span></h1>
+        <p class="animate__animated animate__fadeInUp animate__delay-2s">Nossa equipe de especialistas cria experiências digitais memoráveis que impulsionam resultados.</p>
+        <div class="hero-buttons animate__animated animate__fadeInUp animate__delay-3s">
+          <a href="#contact" class="btn btn-primary">Comece seu projeto</a>
+          <a href="#portfolio" class="btn btn-outline">Ver trabalhos</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="hero-scroll-down">
+      <a href="#services" class="scroll-link">
+        <span class="scroll-text">Scroll Down</span>
+        <span class="scroll-icon"><i class="fas fa-chevron-down"></i></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Seção Serviços -->
+  <section id="services" class="section services">
+    <div class="container">
+      <div class="section-header">
+        <h4 class="subtitle">O que fazemos</h4>
+        <h2 class="title">Nossos <span>Serviços</span></h2>
+        <p class="text">Oferecemos soluções completas para sua presença digital</p>
+      </div>
+      
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-laptop-code"></i>
+          </div>
+          <h3>Desenvolvimento Web</h3>
+          <p>Sites institucionais, e-commerces e sistemas web personalizados com tecnologias modernas.</p>
+          <ul class="service-features">
+            <li>React.js / Vue.js</li>
+            <li>Node.js / Laravel</li>
+            <li>WordPress / Shopify</li>
+          </ul>
+          <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>Aplicativos Mobile</h3>
+          <p>Desenvolvimento de apps nativos e híbridos para iOS e Android com excelente UX.</p>
+          <ul class="service-features">
+            <li>React Native</li>
+            <li>Flutter</li>
+            <li>Swift / Kotlin</li>
+          </ul>
+          <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-paint-brush"></i>
+          </div>
+          <h3>UI/UX Design</h3>
+          <p>Interfaces intuitivas e experiências de usuário memoráveis para seus produtos digitais.</p>
+          <ul class="service-features">
+            <li>User Research</li>
+            <li>Wireframing</li>
+            <li>Prototipação</li>
+          </ul>
+          <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+        
+        <div class="service-card">
+          <div class="service-icon">
+            <i class="fas fa-chart-line"></i>
+          </div>
+          <h3>Marketing Digital</h3>
+          <p>Estratégias completas para aumentar sua visibilidade e conversões online.</p>
+          <ul class="service-features">
+            <li>SEO</li>
+            <li>Google Ads</li>
+            <li>Mídias Sociais</li>
+          </ul>
+          <a href="#" class="service-link">Saiba mais <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Portfólio -->
+  <section id="portfolio" class="section portfolio">
+    <div class="container">
+      <div class="section-header">
+        <h4 class="subtitle">Nossos trabalhos</h4>
+        <h2 class="title">Portfólio <span>Criativo</span></h2>
+        <p class="text">Alguns dos projetos que nos orgulhamos</p>
+      </div>
+      
+      <div class="portfolio-filter">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="web">Web</button>
+        <button class="filter-btn" data-filter="app">Mobile</button>
+        <button class="filter-btn" data-filter="design">Design</button>
+      </div>
+      
+      <div class="portfolio-grid">
+        <div class="portfolio-item" data-category="web">
+          <img src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Projeto Web">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>E-commerce Fashion</h3>
+              <p>Loja virtual completa para marca de moda</p>
+              <a href="#" class="portfolio-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="app">
+          <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Projeto Mobile">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>App Fitness</h3>
+              <p>Aplicativo de treinos personalizados</p>
+              <a href="#" class="portfolio-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="design">
+          <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Projeto Design">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>Redesign de Marca</h3>
+              <p>Identidade visual completa</p>
+              <a href="#" class="portfolio-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="portfolio-item" data-category="web">
+          <img src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Projeto Web">
+          <div class="portfolio-overlay">
+            <div class="portfolio-content">
+              <h3>Sistema de Gestão</h3>
+              <p>ERP completo para indústria</p>
+              <a href="#" class="portfolio-link">Ver detalhes <i class="fas fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="portfolio-cta">
+        <a href="#" class="btn btn-primary">Ver todos os projetos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Sobre -->
+  <section id="about" class="section about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-content">
+          <h4 class="subtitle">Sobre nós</h4>
+          <h2 class="title">Nossa <span>Jornada</span></h2>
+          <p class="text">Fundada em 2015, a Nexus Digital surgiu da paixão por tecnologia e inovação. Começamos como uma pequena equipe de desenvolvedores e hoje somos referência em soluções digitais.</p>
+          
+          <div class="about-stats">
+            <div class="stat-item">
+              <div class="stat-number" data-count="150">0</div>
+              <div class="stat-text">Projetos concluídos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="40">0</div>
+              <div class="stat-text">Clientes satisfeitos</div>
+            </div>
+            <div class="stat-item">
+              <div class="stat-number" data-count="12">0</div>
+              <div class="stat-text">Prêmios conquistados</div>
+            </div>
+          </div>
+          
+          <a href="#" class="btn btn-primary">Nossa história</a>
+        </div>
+        
+        <div class="about-image">
+          <div class="image-wrapper">
+            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Nossa equipe">
+            <div class="experience-badge">
+              <div class="badge-number">8+</div>
+              <div class="badge-text">Anos de experiência</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Equipe -->
+  <section id="team" class="section team">
+    <div class="container">
+      <div class="section-header">
+        <h4 class="subtitle">Conheça nosso time</h4>
+        <h2 class="title">Equipe <span>Expert</span></h2>
+        <p class="text">Profissionais qualificados prontos para transformar seu projeto</p>
+      </div>
+      
+      <div class="team-grid">
+        <div class="team-member">
+          <div class="member-image">
+            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="Ana Silva">
+            <div class="member-social">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Ana Silva</h3>
+            <p>CEO & Fundadora</p>
+          </div>
+        </div>
+        
+        <div class="team-member">
+          <div class="member-image">
+            <img src="https://randomuser.me/api/portraits/men/42.jpg" alt="Carlos Oliveira">
+            <div class="member-social">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Carlos Oliveira</h3>
+            <p>CTO</p>
+          </div>
+        </div>
+        
+        <div class="team-member">
+          <div class="member-image">
+            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Mariana Costa">
+            <div class="member-social">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-dribbble"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Mariana Costa</h3>
+            <p>UI/UX Designer</p>
+          </div>
+        </div>
+        
+        <div class="team-member">
+          <div class="member-image">
+            <img src="https://randomuser.me/api/portraits/men/75.jpg" alt="Ricardo Santos">
+            <div class="member-social">
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="member-info">
+            <h3>Ricardo Santos</h3>
+            <p>Desenvolvedor Sênior</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Depoimentos -->
+  <section class="section testimonials">
+    <div class="container">
+      <div class="section-header">
+        <h4 class="subtitle">O que dizem sobre nós</h4>
+        <h2 class="title">Depoimentos <span>de Clientes</span></h2>
+      </div>
+      
+      <div class="testimonial-slider">
+        <div class="testimonial-slide">
+          <div class="testimonial-content">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p class="testimonial-text">A Nexus Digital transformou completamente nossa presença online. O site que desenvolveram superou todas as nossas expectativas e resultou em um aumento de 150% nas vendas.</p>
+            <div class="testimonial-author">
+              <img src="./IMG/juliana.jpg" alt="Juliana Almeida">
+              <div class="author-info">
+                <h4>Juliana Almeida</h4>
+                <p>CEO, ModaTrend</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="testimonial-slide">
+          <div class="testimonial-content">
+            <div class="quote-icon"><i class="fas fa-quote-left"></i></div>
+            <p class="testimonial-text">O aplicativo desenvolvido pela Nexus Digital revolucionou a forma como nossos clientes interagem com nossos serviços. A equipe foi profissional em todos os aspectos do projeto.</p>
+            <div class="testimonial-author">
+              <img src="./IMG/marcos.png" alt="Marcos Ribeiro">
+              <div class="author-info">
+                <h4>Marcos Ribeiro</h4>
+                <p>Diretor, HealthTrack</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Blog -->
+  <section id="blog" class="section blog">
+    <div class="container">
+      <div class="section-header">
+        <h4 class="subtitle">Últimas notícias</h4>
+        <h2 class="title">Nosso <span>Blog</span></h2>
+        <p class="text">Artigos e insights sobre tecnologia e inovação</p>
+      </div>
+      
+      <div class="blog-grid">
+        <article class="blog-post">
+          <div class="post-image">
+            <img src="./IMG/grafico.png" alt="Tendências Web">
+            <div class="post-date">
+              <span class="date-day">15</span>
+              <span class="date-month">Jun</span>
+            </div>
+          </div>
+          <div class="post-content">
+            <h3><a href="#">Tendências de Design Web para 2023</a></h3>
+            <p>As principais tendências que estão moldando o design de interfaces este ano.</p>
+            <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        
+        <article class="blog-post">
+          <div class="post-image">
+            <img src="./IMG/robo.png" alt="SEO 2023">
+            <div class="post-date">
+              <span class="date-day">02</span>
+              <span class="date-month">Jul</span>
+            </div>
+          </div>
+          <div class="post-content">
+            <h3><a href="#">O que mudou no SEO em 2023</a></h3>
+            <p>As atualizações mais importantes dos algoritmos de busca e como se adaptar.</p>
+            <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+        
+        <article class="blog-post">
+          <div class="post-image">
+            <img src="./IMG/react.png" alt="React 18">
+            <div class="post-date">
+              <span class="date-day">20</span>
+              <span class="date-month">Jul</span>
+            </div>
+          </div>
+          <div class="post-content">
+            <h3><a href="#">Novidades do React 18</a></h3>
+            <p>Conheça as principais features e melhorias da última versão do React.</p>
+            <a href="#" class="read-more">Ler mais <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </article>
+      </div>
+      
+      <div class="blog-cta">
+        <a href="#" class="btn btn-outline">Ver todos os artigos</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Seção Contato -->
+  <section id="contact" class="section contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info">
+          <div class="section-header">
+            <h4 class="subtitle">Entre em contato</h4>
+            <h2 class="title">Vamos <span>Conversar</span></h2>
+            <p class="text">Estamos prontos para transformar sua ideia em realidade.</p>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3>Endereço</h3>
+              <p>Av. Paulista, 1000 - São Paulo/SP</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="info-content">
+              <h3>Email</h3>
+              <p>contato@nexusdigital.com</p>
+            </div>
+          </div>
+          
+          <div class="info-item">
+            <div class="info-icon">
+              <i class="fas fa-phone-alt"></i>
+            </div>
+            <div class="info-content">
+              <h3>Telefone</h3>
+              <p>(11) 9999-9999</p>
+            </div>
+          </div>
+          
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Seu nome" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Seu email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Assunto">
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="index.html" class="logo">
+            <span class="logo-icon"><i class="fas fa-atom"></i></span>
+            <span class="logo-text">Nexus<span>Digital</span></span>
+          </a>
+          <p>Transformando ideias em realidade digital através de soluções inovadoras e tecnologia de ponta.</p>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Links Rápidos</h3>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Serviços</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#contact">Contato</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Serviços</h3>
+          <ul>
+            <li><a href="#">Desenvolvimento Web</a></li>
+            <li><a href="#">Aplicativos Mobile</a></li>
+            <li><a href="#">UI/UX Design</a></li>
+            <li><a href="#">Marketing Digital</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>Newsletter</h3>
+          <p>Assine para receber nossas últimas notícias e atualizações.</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Seu email">
+            <button type="submit"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="copyright">
+          &copy; 2023 Nexus Digital. Todos os direitos reservados.
+        </div>
+        <div class="footer-links">
+          <a href="#">Termos de Serviço</a>
+          <a href="#">Política de Privacidade</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botão Voltar ao Topo -->
+  <a href="#home" class="back-to-top" aria-label="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+  </a>
+
+  <!-- JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
